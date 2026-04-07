@@ -1,0 +1,8 @@
+externalId: ep_icapi_datapoints
+name: Ice Cream API Datapoints Extractor
+description: Extracts datapoints from the Ice Cream API and stores them in a structured format for further analysis.
+rawTables:
+  - dbName: ice-cream-factory-db
+    tableName: assets
+source: Ice Cream API
+dataSetExternalId: {{ icapi_ds_external_id }}
